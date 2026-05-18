@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+._*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Original logo backups (large + redundant, kept locally)
+assets/teams_original_backup/
+
+# Build helper (not part of the site)
+crop_logos.py

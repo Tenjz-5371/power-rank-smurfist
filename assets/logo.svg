@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9F5BC9"/>
+      <stop offset="100%" stop-color="#6B2D8E"/>
+    </linearGradient>
+    <linearGradient id="purpleGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7D3FAE"/>
+      <stop offset="100%" stop-color="#4F1E72"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6FB7E0"/>
+      <stop offset="100%" stop-color="#3A8BC2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Top purple band (parallelogram, isometric) -->
+  <polygon points="40,40 200,40 175,90 15,90"
+           fill="url(#purpleGrad)"
+           stroke="#3D1660" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Right purple vertical band (going down from top-right) -->
+  <polygon points="200,40 220,55 195,105 175,90"
+           fill="url(#purpleGradDark)"
+           stroke="#3D1660" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Blue diagonal middle band (the X-cross element) -->
+  <polygon points="45,100 190,100 200,150 55,150"
+           fill="url(#blueGrad)"
+           stroke="#0F0F1A" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Bottom purple band -->
+  <polygon points="35,160 195,160 220,210 60,210"
+           fill="url(#purpleGrad)"
+           stroke="#3D1660" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Left purple vertical band (going up from bottom-left) -->
+  <polygon points="35,160 55,150 80,165 60,210"
+           fill="url(#purpleGradDark)"
+           stroke="#3D1660" stroke-width="3" stroke-linejoin="round"/>
+</svg>
